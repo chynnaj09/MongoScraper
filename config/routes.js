@@ -1,8 +1,8 @@
 var scrape = require("../scripts/scrape");
 var Article = require("../models/Article");
 var Note = require("../models/Note");
-var articlesController = require("../controllers/articles");
-var notesController = require("../controllers/notes");
+var articlesController = require("../controllers/Article");
+var notesController = require("../controllers/Note");
 
 module.exports = function(router) {
   router.get("/", function(req, res) {
