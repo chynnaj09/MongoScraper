@@ -1,5 +1,5 @@
 body {
-  background-image: url(../img/nyt-newsprint.jpg);
+  /* background-image: url(../img/nyt-newsprint.jpg); */
   background-position: center;
   font-family: "Roboto", sans-serif;
 }
@@ -47,7 +47,7 @@ h4 {
 }
 
 .modal-body {
-  background-image: url(../img/download.jpeg);
+  background-image: url(/assets/img/download.jpeg);
   background-size: cover;
   background-position: center;
 }
